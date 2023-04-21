@@ -13,8 +13,6 @@ books <- gutenberg_works(title %in% titles) %>%
                      mirror = my_mirror)
 
 books
-#OR
-#books <- read_csv("In-Class-Exercises/class_8_4_books.csv")
 
 # divide into documents, each representing one chapter
 by_chapter <- books %>%
